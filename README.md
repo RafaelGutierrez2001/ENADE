@@ -33,4 +33,17 @@ E após os tratamentos, faço o pareamento, para que as regressões possam ser f
 
 Com isto, faço a regressão com os pareados, com todos os grupos, e também utilizando do método de pesos dado pelo MatchIT, que nos dá os devidos pesos de cada variável para a regressão
 
+## Matching
+![Matching]([URL_da_Imagem](https://imgur.com/gallery/uuKlU2C))
+
+
+
+Sample Sizes:
+          Control Treated
+All        401253    5890
+Matched      5890    5890
+Unmatched  395363       0
+Discarded       0       0
+
+
  
