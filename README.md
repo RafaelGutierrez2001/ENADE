@@ -34,16 +34,24 @@ E após os tratamentos, faço o pareamento, para que as regressões possam ser f
 Com isto, faço a regressão com os pareados, com todos os grupos, e também utilizando do método de pesos dado pelo MatchIT, que nos dá os devidos pesos de cada variável para a regressão
 
 ## Matching
-![Matching]([URL_da_Imagem](https://imgur.com/gallery/uuKlU2C))
+
+![Matching](https://i.imgur.com/kO9ULEa.png)
+
+Como podemos ver, com o pareamento, temos uma harmonização em relação as diferenças de médias das variáveis observadas para o pareamento. Com isto, temos a certeza de que os grupos
+selecionados para os próximos passos, estejam dentro de uma mesma realidade, ou próximo disso.
+
+## Análise Descritiva
+
+![Matching](https://i.imgur.com/De6Pffj.png)
+
+Já aqui, podemos notar que mesmo com o pareamento, temos uma diferença na média das notas entre o grupo tratado e controle bastante significativa. O que não significa que seja totalmente por conta do programa
+Ciência sem Fronteiras (por haver um principio explícito de auto-seleção), mas já da para dizer que o programa estimula de certa forma as capacidades lógicas e interpretativas de forma geral dos participantes.
+
+## Regressão
+
+![Matching](https://i.imgur.com/ccSyVAI.png)
+
+Com a regressão, podemos ver que é estatisticamente significante o a participação no Ciência Sem Fronteiras e tem sim um efeito por volta de 65,8 pontos na média das notas. 
+*Observação: Os valores estão divididos por 10, portanto o ATT não é 6,58 pontos e sim 65,8.
 
 
-
-Sample Sizes:
-          Control Treated
-All        401253    5890
-Matched      5890    5890
-Unmatched  395363       0
-Discarded       0       0
-
-
- 
